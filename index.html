@@ -1,0 +1,383 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="msvalidate.01" content="B9309655C744511A08FACD68DA817033" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="StreamEast offers live scores, fixtures, and results for multiple sports, keeping fans updated on all the action..">
+  <meta name="keywords" content="StreamEast provides live scores, results, and stats for a wide range of sports, including NBA, NHL, soccer, and more.">
+  <meta name="robots" content="index, follow">
+  <title>StreamEast - Official Stream NBA, NHL, NFL, MLB, BOXING, UFC</title>
+   <style>
+    .post-icons {
+      display: none;
+    }
+
+    /* General body styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: oklch(0.205 0 0); /* Updated background color */
+    }
+
+    /* Header styling */
+    header {
+      background-color: oklch(0.269 0 0); /* Background color */
+      color: #00acc1; /* Updated text color */
+      text-align: center;
+      padding: 10px 0;
+      font-size: 40px;
+      border-bottom: 4px solid #00acc1; /* Border added below header */
+    }
+
+    /* Content Box styling */
+    .content-box {
+      background-color: oklch(0.269 0 0); /* Light Black/Dark Grey */
+      width: 60%; /* Adjusted the width to 60% */
+      margin: 20px auto; /* Centered the content box */
+      padding: 20px;
+      display: flex;
+      flex-direction: column; /* Stacked vertically */
+      align-items: center; /* Centered horizontally */
+      border: 3px solid #00acc1;
+    }
+
+    /* Stream Box Styling */
+    .stream-box {
+      background-color: #333; /* Dark background for StreamBox */
+      width: 90%; /* Full width */
+      margin: 10px auto; /* Centered the Stream Box */
+      padding: 30px; /* Increased padding to give more space inside the box */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 5px; /* Rounded corners */
+      color: white;
+      text-decoration: none; /* Remove default link style */
+      height: 20px; /* Increased height */
+      transition: transform 0.3s ease; /* Smooth transition for the hover effect */
+    }
+
+    /* Hover effect */
+    .stream-box:hover {
+      transform: translateY(-10px); /* Move the box 10px upwards */
+    }
+
+    .stream-left {
+      font-size: 18px;
+    }
+
+    .stream-right {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+    }
+
+    .stream-right svg {
+      margin-left: 10px;
+    }
+
+    /* Article Box styling */
+    .article-box {
+      background-color: oklch(0.269 0 0);;
+      width: 60%; /* Same as content box width */
+      margin: 20px auto;
+      padding: 20px;
+      border: 2px solid #00acc1;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for better visibility */
+    }
+
+    /* Section styling for article */
+    .article-box h1, .article-box h3 {
+      color: white;
+      margin-bottom: 15px; /* Space below the heading */
+    }
+
+    .article-box h1 {
+      font-size: 28px; /* Larger font size for the main title */
+      margin-top: 20px; /* Top margin for spacing from the previous section */
+    }
+
+    .article-box h3 {
+      font-size: 22px; /* Slightly smaller font for subheadings */
+    }
+
+    /* Paragraph styling */
+    .article-box p {
+      font-size: 18px; /* Comfortable text size */
+      line-height: 1.6; /* Line spacing for better readability */
+      color: white; /* Dark grey text for readability */
+      margin-bottom: 15px; /* Space below each paragraph */
+    }
+
+    /* List styling */
+    .article-box ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      margin-bottom: 15px; /* Space after the list */
+    }
+
+    .article-box ul li {
+      font-size: 18px;
+      color: white;
+      margin-bottom: 8px; /* Space between list items */
+    }
+
+    /* Adding a line between sections */
+    .line {
+      border-top: 2px solid #ccc; /* Light grey line */
+      margin: 20px 0; /* Space around the line */
+    }
+
+    /* Footer Box styling */
+    footer {
+      background-color: oklch(0.269 0 0); /* Same as content box background */
+      color: #00acc1; /* Text color */
+      text-align: center;
+      padding: 20px 0;
+      font-size: 16px;
+      border-top: 4px solid #00acc1; /* Border added on top of the footer */
+    }
+
+    h1, h2, h3 {
+      color: #00acc1;
+    }
+
+    strong {
+      color: #00acc1;
+    }
+
+    /* Mobile-specific styling */
+    @media only screen and (max-width: 768px) {
+      .content-box {
+        width: 90%; /* Use a larger width for mobile */
+        padding: 10px;
+      }
+
+      .stream-box {
+        padding: 15px; /* Reduced padding for mobile screens */
+        height: 50px; /* Adjusted height for mobile screens */
+      }
+
+      .stream-left {
+        font-size: 16px; /* Smaller font size for mobile */
+      }
+
+      .stream-right {
+        font-size: 14px; /* Smaller font size for mobile */
+      }
+
+      .article-box {
+        width: 90%; /* Full width for articles on mobile */
+        margin: 10px auto; /* Reduced margin */
+        padding: 15px; /* Reduced padding */
+      }
+
+      .article-box h1 {
+        font-size: 24px; /* Smaller font size for mobile */
+      }
+
+      .article-box h3 {
+        font-size: 20px; /* Smaller subheading font size */
+      }
+
+      .article-box p {
+        font-size: 16px; /* Adjusted font size */
+      }
+
+      .article-box ul li {
+        font-size: 16px; /* Adjusted list item font size */
+      }
+
+      footer {
+        font-size: 14px; /* Smaller footer text */
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    STREAMEAST
+  </header>
+  
+  <div class="content-box">
+    <!-- Stream Boxes -->
+    <a href="https://v2.sportsonline.pro/" class="stream-box">
+      <div class="stream-left">STEAMEAST HOME</div>
+      <div class="stream-right">
+        ONLINE
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="min-w-[22px] min-h-[22px]">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" />
+          <path d="M11 13l9 -9" />
+          <path d="M15 4h5v5" />
+        </svg>
+      </div>
+    </a>
+    
+    
+     <!-- Stream Boxes -->
+    <a href="https://v2.sportsonline.pro/" class="stream-box">
+      <div class="stream-left">WATCH NBA STREAMS</div>
+      <div class="stream-right">
+        ONLINE
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="min-w-[22px] min-h-[22px]">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" />
+          <path d="M11 13l9 -9" />
+          <path d="M15 4h5v5" />
+        </svg>
+      </div>
+    </a>
+    
+    
+    
+     <!-- Stream Boxes -->
+    <a href="https://v2.sportsonline.pro/" class="stream-box">
+      <div class="stream-left">WATCH NFL STREAMS</div>
+      <div class="stream-right">
+        ONLINE
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="min-w-[22px] min-h-[22px]">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" />
+          <path d="M11 13l9 -9" />
+          <path d="M15 4h5v5" />
+        </svg>
+      </div>
+    </a>
+    
+    
+     <!-- Stream Boxes -->
+    <a href="https://v2.sportsonline.pro/" class="stream-box">
+      <div class="stream-left">WATCH NHL STREAMS</div>
+      <div class="stream-right">
+        ONLINE
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="min-w-[22px] min-h-[22px]">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" />
+          <path d="M11 13l9 -9" />
+          <path d="M15 4h5v5" />
+        </svg>
+      </div>
+    </a>
+    
+    
+    
+     <!-- Stream Boxes -->
+    <a href="https://v2.sportsonline.pro/" class="stream-box">
+      <div class="stream-left">WATCH MMA STREAMS</div>
+      <div class="stream-right">
+        ONLINE
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="min-w-[22px] min-h-[22px]">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" />
+          <path d="M11 13l9 -9" />
+          <path d="M15 4h5v5" />
+        </svg>
+      </div>
+    </a>
+    <!-- Additional Stream Boxes -->
+  </div>
+
+  <!-- Article Box -->
+  <div class="article-box">
+<h1>StreamEast - Your Ultimate Destination for Live Sports Streaming</h1>
+<p>
+  Welcome to <strong>StreamEast</strong>, where you can enjoy live sports streaming absolutely free. Watch your favorite sports like football, basketball, MMA, boxing, cricket, tennis, and many more in <strong>high-definition</strong> quality. No sign-up or subscription required—just instant access to all your favorite sports action!
+</p>
+
+<h2>Why Choose StreamEast for Live Sports Streaming?</h2>
+<p>
+  <strong>StreamEast</strong> is the perfect platform for sports fans everywhere. Access your favorite games and events without the need for accounts or apps. Enjoy smooth, high-quality streams, from top football matches to epic MMA showdowns, all in one place.
+</p>
+
+<h2>Features You’ll Love on StreamEast</h2>
+<ul>
+  <li>
+    <strong>Free to Watch:</strong> Stream live sports at no cost, without hidden fees.
+  </li>
+  <li>
+    <strong>HD Quality:</strong> Get a premium viewing experience with high-definition streams and minimal buffering.
+  </li>
+  <li>
+    <strong>Diverse Sports Coverage:</strong> Watch football, basketball, MMA, tennis, boxing, and more, all in one place.
+  </li>
+  <li>
+    <strong>Instant Access:</strong> Start streaming your favorite events immediately—no account creation or logins required.
+  </li>
+  <li>
+    <strong>Cross-Device Compatibility:</strong> Enjoy seamless streaming on smartphones, tablets, laptops, desktops, and smart TVs.
+  </li>
+  <li>
+    <strong>User-Friendly Interface:</strong> Easily find live sports events with a clean and intuitive layout.
+  </li>
+</ul>
+
+<h2>What Sports Can You Watch on StreamEast?</h2>
+<ul>
+  <li>
+    <strong>Football:</strong> Stream Premier League, FIFA World Cup, Champions League, and many more football events.
+  </li>
+  <li>
+    <strong>Basketball:</strong> Watch NBA games, NCAA tournaments, and international basketball competitions.
+  </li>
+  <li>
+    <strong>MMA & Boxing:</strong> Catch live UFC bouts, boxing matches, and other major MMA events.
+  </li>
+  <li>
+    <strong>Cricket:</strong> Follow tournaments like the IPL, ICC World Cup, and more in real time.
+  </li>
+  <li>
+    <strong>Tennis:</strong> Watch Grand Slam events such as Wimbledon, US Open, and Australian Open as they happen.
+  </li>
+</ul>
+
+<h2>How to Stream Sports on StreamEast</h2>
+<p>
+  Watching sports on <strong>StreamEast</strong> is quick and easy. Simply visit the homepage, choose the event you want to watch, click, and start streaming instantly. Enjoy smooth, HD-quality action from anywhere, at any time!
+</p>
+
+<h2>Tips for the Best Streaming Experience</h2>
+<ul>
+  <li>If the stream lags or stops, refresh the page to restore the flow.</li>
+  <li>If needed, switch to backup streaming links for uninterrupted viewing.</li>
+  <li>Ensure you have a fast and reliable internet connection for the best HD quality.</li>
+  <li>Use a trusted VPN for privacy and to access sports events that may be region-restricted.</li>
+</ul>
+
+<h2>Is StreamEast Safe to Use?</h2>
+<p>
+  Yes, <strong>StreamEast</strong> is a reliable platform for free sports streaming. It ensures secure streaming with minimal ads. For an even smoother experience, consider using an ad blocker. Supporting official streaming services where possible also helps sustain the sports industry.
+</p>
+
+<h2>What Makes StreamEast Stand Out?</h2>
+<ul>
+  <li>
+    <strong>One-Click Streaming:</strong> No accounts, no logins—just click and start watching.
+  </li>
+  <li>
+    <strong>High-Definition Streams:</strong> Watch live sports in crisp HD with minimal interruptions.
+  </li>
+  <li>
+    <strong>Worldwide Coverage:</strong> Watch top sports events from leagues and tournaments around the globe.
+  </li>
+  <li>
+    <strong>Access Anywhere:</strong> Enjoy live sports on any device, no matter where you are.
+  </li>
+</ul>
+
+<h2>Start Watching Live Sports on StreamEast Now!</h2>
+<p>
+  Don't miss out on the action! Join millions of fans who trust <strong>StreamEast</strong> for free, live sports streaming. Whether it’s football, basketball, MMA, or cricket, StreamEast brings you the best sports experience. Click now to enjoy HD-quality streams, all at no cost!
+</p>
+  </div>
+
+  <!-- Footer Box -->
+  <footer>
+    &copy; 2025 Streameast. All rights reserved.
+  </footer>
+</body>
+</html>
